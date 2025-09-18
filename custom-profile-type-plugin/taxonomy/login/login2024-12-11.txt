@@ -1,0 +1,58 @@
+12-11-2024 00:10 userID: 30 sent to CRM successfully
+12-11-2024 00:10 CRM return status code201
+12-11-2024 00:30 userID: 30 sent to CRM successfully
+12-11-2024 00:30 CRM return status code201
+12-11-2024 00:34 userID: 30 sent to CRM successfully
+12-11-2024 00:34 CRM return status code201
+12-11-2024 00:39 userID: 30 sent to CRM successfully
+12-11-2024 00:39 CRM return status code201
+12-11-2024 01:21 userID: 30 sent to CRM successfully
+12-11-2024 01:21 CRM return status code201
+12-11-2024 01:40 userID: 30 sent to CRM successfully
+12-11-2024 01:40 CRM return status code201
+12-11-2024 02:10 userID: 30 sent to CRM successfully
+12-11-2024 02:10 CRM return status code201
+12-11-2024 02:19 userID: 30 sent to CRM successfully
+12-11-2024 02:19 CRM return status code201
+12-11-2024 02:56 userID: 30 sent to CRM successfully
+12-11-2024 02:56 CRM return status code201
+12-11-2024 02:56 userID: 30 sent to CRM successfully
+12-11-2024 02:56 CRM return status code201
+12-11-2024 03:22 userID: 328 sent to CRM successfully
+12-11-2024 03:22 CRM return status code201
+12-11-2024 03:44 userID: 328 sent to CRM successfully
+12-11-2024 03:44 CRM return status code201
+12-11-2024 04:12 userID: 30 sent to CRM successfully
+12-11-2024 04:12 CRM return status code201
+12-11-2024 05:16 userID: 30 sent to CRM successfully
+12-11-2024 05:16 CRM return status code201
+12-11-2024 05:59 userID: 328 sent to CRM successfully
+12-11-2024 05:59 CRM return status code201
+12-11-2024 05:59 userID: 328 sent to CRM successfully
+12-11-2024 05:59 CRM return status code201
+12-11-2024 07:06 userID: 328 sent to CRM successfully
+12-11-2024 07:06 CRM return status code201
+12-11-2024 07:55 userID: 30 sent to CRM successfully
+12-11-2024 07:55 CRM return status code201
+12-11-2024 08:02 userID: 30 sent to CRM successfully
+12-11-2024 08:02 CRM return status code201
+12-11-2024 08:02 userID: 30 sent to CRM successfully
+12-11-2024 08:02 CRM return status code201
+12-11-2024 08:02 userID: 30 sent to CRM successfully
+12-11-2024 08:02 CRM return status code201
+12-11-2024 08:02 userID: 30 sent to CRM successfully
+12-11-2024 08:02 CRM return status code201
+12-11-2024 08:02 userID: 30 sent to CRM successfully
+12-11-2024 08:02 CRM return status code201
+12-11-2024 08:02 userID: 30 sent to CRM successfully
+12-11-2024 08:02 CRM return status code201
+12-11-2024 13:48 userID: 30 sent to CRM successfully
+12-11-2024 13:48 CRM return status code201
+12-11-2024 13:58 userID: 30 sent to CRM successfully
+12-11-2024 13:58 CRM return status code201
+12-11-2024 13:58 userID: 30 sent to CRM successfully
+12-11-2024 13:58 CRM return status code201
+12-11-2024 16:00 userID: 30 sent to CRM successfully
+12-11-2024 16:00 CRM return status code201
+12-11-2024 22:38 userID: 30 sent to CRM successfully
+12-11-2024 22:38 CRM return status code201

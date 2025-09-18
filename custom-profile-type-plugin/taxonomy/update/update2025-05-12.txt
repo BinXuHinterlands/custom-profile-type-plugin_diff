@@ -1,22 +1,57 @@
-05-12-2025 05:55 userID: 50304 sent to CRM successfully
-05-12-2025 05:55 CRM return status code201
-05-12-2025 05:55 userID: 50304 sent to CRM successfully
-05-12-2025 05:55 CRM return status code201
-05-12-2025 05:56 userID: 50304 sent to CRM successfully
-05-12-2025 05:56 CRM return status code201
-05-12-2025 05:57 userID: 50304 sent to CRM successfully
-05-12-2025 05:57 CRM return status code201
-05-12-2025 05:57 userID: 50304 sent to CRM successfully
-05-12-2025 05:57 CRM return status code201
-05-12-2025 06:04 userID: 50304 sent to CRM successfully
-05-12-2025 06:04 CRM return status code201
-05-12-2025 07:02 userID: 47161 sent to CRM successfully
-05-12-2025 07:02 CRM return status code201
-05-12-2025 07:26 userID: 48273 sent to CRM successfully
-05-12-2025 07:26 CRM return status code201
-05-12-2025 07:43 userID: 49960 sent to CRM successfully
-05-12-2025 07:43 CRM return status code201
-05-12-2025 07:44 userID: 49960 sent to CRM successfully
-05-12-2025 07:44 CRM return status code201
-05-12-2025 08:12 userID: 50315 sent to CRM successfully
-05-12-2025 08:12 CRM return status code201
+05-12-2025 02:23 userID: 30 sent to CRM successfully
+05-12-2025 02:23 CRM return status code401 email not sent
+05-12-2025 02:23 CRM return status code401
+05-12-2025 02:55 userID: 508 sent to CRM successfully
+05-12-2025 02:55 CRM return status code401 email not sent
+05-12-2025 02:55 CRM return status code401
+05-12-2025 03:27 userID: 508 sent to CRM successfully
+05-12-2025 03:27 CRM return status code401 email not sent
+05-12-2025 03:27 CRM return status code401
+05-12-2025 03:28 userID: 539 sent to CRM successfully
+05-12-2025 03:28 CRM return status code email not sent
+05-12-2025 03:28 CRM return status code
+05-12-2025 03:29 userID: 539 sent to CRM successfully
+05-12-2025 03:29 CRM return status code401 email not sent
+05-12-2025 03:29 CRM return status code401
+05-12-2025 03:35 userID: 539 sent to CRM successfully
+05-12-2025 03:35 CRM return status code401 email not sent
+05-12-2025 03:35 CRM return status code401
+05-12-2025 03:36 userID: 539 sent to CRM successfully
+05-12-2025 03:36 CRM return status code401 email not sent
+05-12-2025 03:36 CRM return status code401
+05-12-2025 03:37 userID: 30 sent to CRM successfully
+05-12-2025 03:37 CRM return status code401 email not sent
+05-12-2025 03:37 CRM return status code401
+05-12-2025 03:38 userID: 30 sent to CRM successfully
+05-12-2025 03:38 CRM return status code401 email not sent
+05-12-2025 03:38 CRM return status code401
+05-12-2025 03:39 userID: 30 sent to CRM successfully
+05-12-2025 03:39 CRM return status code401 email not sent
+05-12-2025 03:39 CRM return status code401
+05-12-2025 03:40 userID: 30 sent to CRM successfully
+05-12-2025 03:41 CRM return status code401 email not sent
+05-12-2025 03:41 CRM return status code401
+05-12-2025 04:07 userID: 30 sent to CRM successfully
+05-12-2025 04:07 CRM return status code401 email not sent
+05-12-2025 04:07 CRM return status code401
+05-12-2025 04:10 userID: 30 sent to CRM successfully
+05-12-2025 04:10 CRM return status code401 email not sent
+05-12-2025 04:10 CRM return status code401
+05-12-2025 04:11 userID: 30 sent to CRM successfully
+05-12-2025 04:11 CRM return status code401 email not sent
+05-12-2025 04:11 CRM return status code401
+05-12-2025 04:12 userID: 30 sent to CRM successfully
+05-12-2025 04:12 CRM return status code401 email not sent
+05-12-2025 04:12 CRM return status code401
+05-12-2025 04:13 userID: 30 sent to CRM successfully
+05-12-2025 04:13 CRM return status code401 email not sent
+05-12-2025 04:13 CRM return status code401
+05-12-2025 04:14 userID: 30 sent to CRM successfully
+05-12-2025 04:14 CRM return status code401 email not sent
+05-12-2025 04:14 CRM return status code401
+05-12-2025 04:14 userID: 30 sent to CRM successfully
+05-12-2025 04:14 CRM return status code401 email not sent
+05-12-2025 04:14 CRM return status code401
+05-12-2025 05:24 userID: 30 sent to CRM successfully
+05-12-2025 05:24 CRM return status code401 email not sent
+05-12-2025 05:24 CRM return status code401

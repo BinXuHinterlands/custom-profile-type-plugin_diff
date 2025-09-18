@@ -1,12 +1,3 @@
-07-23-2025 05:47 userID: 50390 sent to CRM successfully
-07-23-2025 05:47 CRM return status code201
-07-23-2025 06:00 userID: 49183 sent to CRM successfully
-07-23-2025 06:00 CRM return status code201
-07-23-2025 06:00 userID: 49183 sent to CRM successfully
-07-23-2025 06:00 CRM return status code201
-07-23-2025 06:00 userID: 49183 sent to CRM successfully
-07-23-2025 06:00 CRM return status code201
-07-23-2025 06:00 userID: 49183 sent to CRM successfully
-07-23-2025 06:00 CRM return status code201
-07-23-2025 08:20 userID: 50348 sent to CRM successfully
-07-23-2025 08:20 CRM return status code201
+07-23-2025 01:29 userID: 566 sent to CRM successfully
+07-23-2025 01:30 CRM return status code401 email sent
+07-23-2025 01:30 CRM return status code401

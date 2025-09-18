@@ -1,4 +1,18 @@
-07-24-2025 07:11 userID: 50018 sent to CRM successfully
-07-24-2025 07:11 CRM return status code201
-07-24-2025 12:18 userID: 50391 sent to CRM successfully
-07-24-2025 12:18 CRM return status code201
+07-24-2025 08:07 userID: 328 sent to CRM successfully
+07-24-2025 08:07 CRM return status code401 email not sent
+07-24-2025 08:07 CRM return status code401
+07-24-2025 08:15 userID: 566 sent to CRM successfully
+07-24-2025 08:15 CRM return status code401 email not sent
+07-24-2025 08:15 CRM return status code401
+07-24-2025 08:17 userID: 566 sent to CRM successfully
+07-24-2025 08:17 CRM return status code401 email not sent
+07-24-2025 08:17 CRM return status code401
+07-24-2025 08:18 userID: 566 sent to CRM successfully
+07-24-2025 08:18 CRM return status code401 email not sent
+07-24-2025 08:18 CRM return status code401
+07-24-2025 15:20 userID: 328 sent to CRM successfully
+07-24-2025 15:20 CRM return status code401 email not sent
+07-24-2025 15:20 CRM return status code401
+07-24-2025 15:20 userID: 328 sent to CRM successfully
+07-24-2025 15:20 CRM return status code401 email not sent
+07-24-2025 15:20 CRM return status code401
