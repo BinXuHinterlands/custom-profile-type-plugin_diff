@@ -1,8 +1,0 @@
-03-14-2025 00:09 userID: 50253 sent to CRM successfully
-03-14-2025 00:09 CRM return status code201
-03-14-2025 02:11 userID: 50254 sent to CRM successfully
-03-14-2025 02:11 CRM return status code201
-03-14-2025 02:13 userID: 50254 sent to CRM successfully
-03-14-2025 02:13 CRM return status code201
-03-14-2025 02:16 userID: 50254 sent to CRM successfully
-03-14-2025 02:16 CRM return status code201

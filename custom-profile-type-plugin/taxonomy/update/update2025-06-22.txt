@@ -1,2 +1,0 @@
-06-22-2025 03:00 userID: 50146 sent to CRM successfully
-06-22-2025 03:00 CRM return status code201
