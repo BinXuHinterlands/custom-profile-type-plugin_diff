@@ -1,0 +1,196 @@
+02-24-2025 00:04 userID: 49419 sent to CRM successfully
+02-24-2025 00:04 CRM return status code201
+02-24-2025 00:47 userID: 48914 sent to CRM successfully
+02-24-2025 00:47 CRM return status code201
+02-24-2025 00:58 userID: 49959 sent to CRM successfully
+02-24-2025 00:58 CRM return status code201
+02-24-2025 01:01 userID: 48509 sent to CRM successfully
+02-24-2025 01:01 CRM return status code201
+02-24-2025 01:02 userID: 48914 sent to CRM successfully
+02-24-2025 01:02 CRM return status code201
+02-24-2025 01:04 userID: 49639 sent to CRM successfully
+02-24-2025 01:04 CRM return status code201
+02-24-2025 01:06 userID: 48835 sent to CRM successfully
+02-24-2025 01:06 CRM return status code201
+02-24-2025 01:06 userID: 22697 sent to CRM successfully
+02-24-2025 01:06 CRM return status code201
+02-24-2025 01:06 userID: 22697 sent to CRM successfully
+02-24-2025 01:06 CRM return status code201
+02-24-2025 01:08 userID: 48914 sent to CRM successfully
+02-24-2025 01:08 CRM return status code201
+02-24-2025 01:34 userID: 48914 sent to CRM successfully
+02-24-2025 01:34 CRM return status code201
+02-24-2025 01:37 userID: 49274 sent to CRM successfully
+02-24-2025 01:37 CRM return status code201
+02-24-2025 01:39 userID: 48817 sent to CRM successfully
+02-24-2025 01:39 CRM return status code201
+02-24-2025 02:11 userID: 49343 sent to CRM successfully
+02-24-2025 02:11 CRM return status code201
+02-24-2025 02:11 userID: 49343 sent to CRM successfully
+02-24-2025 02:11 CRM return status code201
+02-24-2025 02:11 userID: 49343 sent to CRM successfully
+02-24-2025 02:11 CRM return status code201
+02-24-2025 02:16 userID: 48853 sent to CRM successfully
+02-24-2025 02:16 CRM return status code201
+02-24-2025 02:44 userID: 45946 sent to CRM successfully
+02-24-2025 02:44 CRM return status code201
+02-24-2025 03:05 userID: 49959 sent to CRM successfully
+02-24-2025 03:05 CRM return status code201
+02-24-2025 03:26 userID: 48835 sent to CRM successfully
+02-24-2025 03:26 CRM return status code201
+02-24-2025 03:30 userID: 49496 sent to CRM successfully
+02-24-2025 03:30 CRM return status code201
+02-24-2025 03:30 userID: 49496 sent to CRM successfully
+02-24-2025 03:30 CRM return status code201
+02-24-2025 03:32 userID: 49639 sent to CRM successfully
+02-24-2025 03:32 CRM return status code201
+02-24-2025 03:36 userID: 32902 sent to CRM successfully
+02-24-2025 03:36 CRM return status code201
+02-24-2025 03:43 userID: 23335 sent to CRM successfully
+02-24-2025 03:43 CRM return status code201
+02-24-2025 03:48 userID: 50146 sent to CRM successfully
+02-24-2025 03:48 CRM return status code201
+02-24-2025 04:11 userID: 402 sent to CRM successfully
+02-24-2025 04:11 CRM return status code201
+02-24-2025 04:23 userID: 49522 sent to CRM successfully
+02-24-2025 04:23 CRM return status code201
+02-24-2025 04:27 userID: 49398 sent to CRM successfully
+02-24-2025 04:27 CRM return status code201
+02-24-2025 04:27 userID: 49398 sent to CRM successfully
+02-24-2025 04:27 CRM return status code201
+02-24-2025 04:27 userID: 49398 sent to CRM successfully
+02-24-2025 04:27 CRM return status code201
+02-24-2025 04:27 userID: 49398 sent to CRM successfully
+02-24-2025 04:27 CRM return status code201
+02-24-2025 04:42 userID: 46265 sent to CRM successfully
+02-24-2025 04:42 CRM return status code201
+02-24-2025 04:44 userID: 50089 sent to CRM successfully
+02-24-2025 04:44 CRM return status code201
+02-24-2025 04:44 userID: 50226 sent to CRM successfully
+02-24-2025 04:44 CRM return status code201
+02-24-2025 04:45 userID: 48835 sent to CRM successfully
+02-24-2025 04:45 CRM return status code201
+02-24-2025 04:45 userID: 49986 sent to CRM successfully
+02-24-2025 04:45 CRM return status code201
+02-24-2025 05:10 userID: 49959 sent to CRM successfully
+02-24-2025 05:10 CRM return status code201
+02-24-2025 05:11 userID: 46265 sent to CRM successfully
+02-24-2025 05:11 CRM return status code201
+02-24-2025 05:19 userID: 49643 sent to CRM successfully
+02-24-2025 05:19 CRM return status code201
+02-24-2025 05:25 userID: 49323 sent to CRM successfully
+02-24-2025 05:25 CRM return status code201
+02-24-2025 05:31 userID: 49390 sent to CRM successfully
+02-24-2025 05:31 CRM return status code201
+02-24-2025 05:36 userID: 49343 sent to CRM successfully
+02-24-2025 05:36 CRM return status code201
+02-24-2025 05:36 userID: 49343 sent to CRM successfully
+02-24-2025 05:36 CRM return status code201
+02-24-2025 05:36 userID: 49343 sent to CRM successfully
+02-24-2025 05:36 CRM return status code201
+02-24-2025 05:37 userID: 50089 sent to CRM successfully
+02-24-2025 05:37 CRM return status code201
+02-24-2025 05:40 userID: 45946 sent to CRM successfully
+02-24-2025 05:40 CRM return status code201
+02-24-2025 05:45 userID: 49801 sent to CRM successfully
+02-24-2025 05:45 CRM return status code201
+02-24-2025 05:45 userID: 22697 sent to CRM successfully
+02-24-2025 05:45 CRM return status code201
+02-24-2025 05:47 userID: 22697 sent to CRM successfully
+02-24-2025 05:47 CRM return status code201
+02-24-2025 05:47 userID: 50128 sent to CRM successfully
+02-24-2025 05:47 CRM return status code201
+02-24-2025 05:49 userID: 50146 sent to CRM successfully
+02-24-2025 05:49 CRM return status code201
+02-24-2025 05:52 userID: 48168 sent to CRM successfully
+02-24-2025 05:52 CRM return status code201
+02-24-2025 06:21 userID: 48835 sent to CRM successfully
+02-24-2025 06:21 CRM return status code201
+02-24-2025 06:27 userID: 49639 sent to CRM successfully
+02-24-2025 06:27 CRM return status code201
+02-24-2025 06:58 userID: 48914 sent to CRM successfully
+02-24-2025 06:58 CRM return status code201
+02-24-2025 07:02 userID: 23335 sent to CRM successfully
+02-24-2025 07:02 CRM return status code201
+02-24-2025 07:02 userID: 49278 sent to CRM successfully
+02-24-2025 07:02 CRM return status code201
+02-24-2025 07:05 userID: 47161 sent to CRM successfully
+02-24-2025 07:05 CRM return status code201
+02-24-2025 07:13 userID: 48853 sent to CRM successfully
+02-24-2025 07:13 CRM return status code201
+02-24-2025 07:28 userID: 46265 sent to CRM successfully
+02-24-2025 07:28 CRM return status code201
+02-24-2025 07:30 userID: 49959 sent to CRM successfully
+02-24-2025 07:30 CRM return status code201
+02-24-2025 07:37 userID: 48794 sent to CRM successfully
+02-24-2025 07:37 CRM return status code201
+02-24-2025 07:48 userID: 48784 sent to CRM successfully
+02-24-2025 07:48 CRM return status code201
+02-24-2025 07:55 userID: 49274 sent to CRM successfully
+02-24-2025 07:55 CRM return status code201
+02-24-2025 08:03 userID: 49418 sent to CRM successfully
+02-24-2025 08:03 CRM return status code201
+02-24-2025 08:10 userID: 49639 sent to CRM successfully
+02-24-2025 08:10 CRM return status code201
+02-24-2025 08:24 userID: 49187 sent to CRM successfully
+02-24-2025 08:24 CRM return status code201
+02-24-2025 08:31 userID: 49343 sent to CRM successfully
+02-24-2025 08:31 CRM return status code201
+02-24-2025 08:31 userID: 49343 sent to CRM successfully
+02-24-2025 08:31 CRM return status code201
+02-24-2025 08:32 userID: 49343 sent to CRM successfully
+02-24-2025 08:32 CRM return status code201
+02-24-2025 08:33 userID: 49948 sent to CRM successfully
+02-24-2025 08:33 CRM return status code201
+02-24-2025 08:50 userID: 49390 sent to CRM successfully
+02-24-2025 08:50 CRM return status code201
+02-24-2025 09:18 userID: 48433 sent to CRM successfully
+02-24-2025 09:18 CRM return status code201
+02-24-2025 09:20 userID: 48509 sent to CRM successfully
+02-24-2025 09:20 CRM return status code201
+02-24-2025 09:32 userID: 50128 sent to CRM successfully
+02-24-2025 09:32 CRM return status code201
+02-24-2025 09:42 userID: 48509 sent to CRM successfully
+02-24-2025 09:42 CRM return status code201
+02-24-2025 10:32 userID: 49418 sent to CRM successfully
+02-24-2025 10:32 CRM return status code201
+02-24-2025 10:56 userID: 49390 sent to CRM successfully
+02-24-2025 10:56 CRM return status code201
+02-24-2025 11:32 userID: 48794 sent to CRM successfully
+02-24-2025 11:32 CRM return status code201
+02-24-2025 11:40 userID: 50089 sent to CRM successfully
+02-24-2025 11:40 CRM return status code201
+02-24-2025 11:57 userID: 49343 sent to CRM successfully
+02-24-2025 11:57 CRM return status code201
+02-24-2025 11:57 userID: 49343 sent to CRM successfully
+02-24-2025 11:57 CRM return status code201
+02-24-2025 12:13 userID: 48509 sent to CRM successfully
+02-24-2025 12:13 CRM return status code201
+02-24-2025 12:34 userID: 49465 sent to CRM successfully
+02-24-2025 12:34 CRM return status code201
+02-24-2025 13:02 userID: 49390 sent to CRM successfully
+02-24-2025 13:02 CRM return status code201
+02-24-2025 13:02 userID: 49390 sent to CRM successfully
+02-24-2025 13:02 CRM return status code201
+02-24-2025 14:08 userID: 49884 sent to CRM successfully
+02-24-2025 14:08 CRM return status code201
+02-24-2025 21:29 userID: 49639 sent to CRM successfully
+02-24-2025 21:29 CRM return status code201
+02-24-2025 21:32 userID: 50162 sent to CRM successfully
+02-24-2025 21:32 CRM return status code201
+02-24-2025 21:32 userID: 50162 sent to CRM successfully
+02-24-2025 21:32 CRM return status code201
+02-24-2025 22:13 userID: 49986 sent to CRM successfully
+02-24-2025 22:13 CRM return status code201
+02-24-2025 22:43 userID: 48914 sent to CRM successfully
+02-24-2025 22:43 CRM return status code201
+02-24-2025 23:09 userID: 49187 sent to CRM successfully
+02-24-2025 23:09 CRM return status code201
+02-24-2025 23:16 userID: 49044 sent to CRM successfully
+02-24-2025 23:16 CRM return status code201
+02-24-2025 23:21 userID: 49343 sent to CRM successfully
+02-24-2025 23:21 CRM return status code201
+02-24-2025 23:27 userID: 49022 sent to CRM successfully
+02-24-2025 23:27 CRM return status code201
+02-24-2025 23:29 userID: 48509 sent to CRM successfully
+02-24-2025 23:29 CRM return status code201

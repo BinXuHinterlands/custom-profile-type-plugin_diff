@@ -1,0 +1,246 @@
+<?php
+
+/**
+ * CRM endpoint to update user actiity status
+ * {
+ *  "user_id": 1,
+ *  "activity_status": "Active"
+ *  }
+ */
+ require_once plugin_dir_path( __FILE__ ) . '../crm_user_meta.php';
+
+ $username='livewiredev';
+ $password='Zx8dFq!sA95@*&';
+ $username_value = get_option('basic_userName');
+ $password_value = get_option('basic_password');
+ if(is_wp_error($username_value)&&!empty($username_value)){
+    $username=$username_value;
+ }
+ if(is_wp_error($password_value)&&!empty($password_value)){
+    $password=$password_value;
+ }
+ function wporg_register_users_status_rest_route() {
+  register_rest_route( 'users', '/user_status_sync', array(
+      'methods' => 'POST',
+      'callback' => 'wporg_update_activity_status',
+      'args' => array(
+          'user_id' => array(
+              'required' => true,
+              'validate_callback' => function($param, $request, $key) {
+                  return is_numeric( $param );
+              }
+          ),
+          'data'=>array(
+              'required' => true,
+          ),
+          // 'taxonomy_name' => array(
+          //   'required' => true,
+          // ),
+          // 'new_status' => array(
+          //     'required' => true,
+          // ),
+      ),
+  ) );
+ }
+add_action( 'rest_api_init', 'wporg_register_users_status_rest_route' );
+
+function wporg_update_activity_status( WP_REST_Request $request ) {
+  //remove hook
+  remove_action('profile_update', 'lw_crm_edit_cb');
+  remove_action('xprofile_updated_profile','sync_edit_data',10,1);
+  remove_action('set_object_terms', 'sync_taxonomy_crm_user',10, 6);
+  // Check if the user has provided the Authorization header
+  $headers = getallheaders();
+  if (isset($headers['Authorization'])) {
+     $auth_header = $headers['Authorization'];
+     // Extract the username and password from the header
+     list($username, $password) = explode(':', base64_decode(substr($auth_header, 6)));
+     // Hardcoded username and password for demonstration
+      $valid_username = $username;
+      $valid_password = $password;
+      // Validate the username and password
+      if ($username === $valid_username && $password === $valid_password) {
+          // Authentication successful, allow access to the API
+      } else {
+          // Authentication failed, deny access
+          status_header(401);
+          echo 'Unauthorized';
+          exit;
+      }
+  } else{
+      status_header(401);
+      echo 'Unauthorized';
+      exit;
+  }
+  $user_id = $request->get_param( 'user_id' );
+  //check if data is missing
+  if($user_id===1){
+    return new WP_Error('400','admin account can not be modified!', array( 'status' => 400 ));
+  }
+  $data=$request->get_param('data');
+  
+  if(!$data){
+    return new WP_Error('invalid', 'data param is missing or empty', array( 'status' => 400 ) );
+  }
+   //check if userID exist 
+   if(! get_user_by( 'id', $user_id )){
+    return new WP_Error( 'invalid', 'Invalid user ID ', array( 'status' => 400 ) );
+  }
+  //check error on bb member_type taxonomy data
+  $member_type = $data['member_type']?true:false;
+  $member_status = $data['member_type']?$data['member_type']:false;
+  if($member_status){
+    $haystack = ['Livewire Member', 'Livewire Admin', 
+    'Starlight Team',
+    'Visitor',
+    'Volunteer',
+    'Mentor',
+    'Dev Admin'];
+    //check if the new_Status is allowed
+    if(!in_array($member_status,$haystack)){
+      $member_status=false;
+      return new WP_Error('invalid', 'Invalid member_status',array( 'status' => 400 ));
+    };
+  }
+  if($member_type&&!$member_status||!$member_type&&$member_status){
+    return new WP_Error('invalid', 'member_type is not valid', array( 'status' => 400 ) );
+  }
+  //check error on blocked_type taxonomy data
+  $blocked_type = $data['blocked_status']?true:false;
+  $blocked_status = $data['blocked_status']?$data['blocked_status']:false;
+  if($blocked_status){
+    if ( ! get_user_by( 'id', $user_id ) || ! term_exists( $blocked_status, "blocked_status") ) {
+      $blocked_status=false;
+      return new WP_Error( 'invalid', 'Invalid blocked_status', array( 'status' => 400 ) );
+  }
+  }
+  if($blocked_type&&!$blocked_status||!$blocked_type&&$blocked_status){
+    return new WP_Error('invalid', 'blocked_type or blocked_status is not valid', array( 'status' => 400 ) );
+  }
+  //check error on profile_type taxonomy data
+  $profile_type  = $data['verification_status']?$data['verification_status']:false;
+  if($profile_type ){
+    if ( ! get_user_by( 'id', $user_id ) || ! term_exists( $profile_type , "profile_type") ) {
+      $profile_type =false;
+      return new WP_Error( 'invalid', 'Invalid verification_status ', array( 'status' => 400 ) );
+  }
+  }
+  if($profile_type &&!$profile_type ||!$profile_type &&$profile_type ){
+    return new WP_Error('invalid', 'profile_type  is not valid', array( 'status' => 400 ) );
+  }
+  //check error on activity_status taxonomy data
+  $activity_type = $data['activity_status']?true:false;
+  $activity_status = $data['activity_status']?$data['activity_status']:false;
+  if($activity_status){
+    if ( ! get_user_by( 'id', $user_id ) || ! term_exists( $activity_status, "activity_status") ) {
+      $activity_status=false;
+      return new WP_Error( 'invalid', 'Invalid activity_status', array( 'status' => 400 ) );
+  }
+  }
+  if($activity_type&&!$activity_status||!$activity_type&&$activity_status){
+    return new WP_Error('invalid', 'activity_type or activity_status is not valid', array( 'status' => 400 ) );
+  }
+  //check and process additoinal_info
+  $additional_info = $data['user_info'];
+  $user_meta_array = update_crm_meta($additional_info,$user_id);
+  if($additional_info){
+    $user_meta_array = update_crm_meta($additional_info,$user_id);
+    if(is_wp_error($user_meta_array)){
+      return new WP_Error( 'invalid', 'please check your user_info', 
+      array( 
+        'status' => 400 ,
+        'error'=> $user_meta_array) 
+             ) ;
+    }
+  }
+
+  //update member_type
+  // if($member_type){
+  //   $Subscriber_role_array = ['Starlight Team','Visitor','Volunteer','Mentor','Livewire Member','Dev Admin'];
+  //   if(in_array($member_type,$Subscriber_role_array)){
+  //     $user = new WP_User($user_id);
+  //     $user->set_role('subscriber');
+  //     $user->save();
+  //   }
+  //   if($member_type==='Livewire Admin'){
+  //     $user = new WP_User($user_id);
+  //     $user->set_role('administrator');
+  //     $user->save();
+  //   }
+  //   if($member_type==='Dev Admin'){
+  //     $user = new WP_User($user_id);
+  //     $user->set_role('administrator');
+  //     $user->save();
+  //   }
+  // };
+   
+  //update buddy boss profile type
+  //check if taxnomy is buddy boss profile type
+  if($member_type){
+    bp_set_user_member_type($user_id,$member_status);
+  }
+  //update blocked_status
+  // Ensure the blocked_type and blocked_status match
+  if ($blocked_type) {
+    $term = get_term_by( 'name',$blocked_status, "blocked_status" );
+    wp_set_object_terms( $user_id, $term->term_id, "blocked_status", false );
+    clean_object_term_cache( $user_id, "blocked_status" );
+  }
+  //update activity_status
+  if ($activity_status) {
+    $term = get_term_by( 'name',$activity_status, "activity_status" );
+    wp_set_object_terms( $user_id, $term->term_id, "activity_status", false );
+    clean_object_term_cache( $user_id, "activity_status" );
+  }
+  //update profile_type
+  if($profile_type){
+    $term = get_term_by( 'name',$profile_type, "profile_type" );
+    wp_set_object_terms( $user_id, $term->term_id, "profile_type", false );
+    clean_object_term_cache( $user_id, "profile_type" );
+  }
+
+  $user = new WP_User($user_id);
+  if (!empty($user->roles)) {
+    $user_role = current($user->roles); // Get the first role of the user
+  }
+  //add hook back
+  add_action('profile_update', 'lw_crm_edit_cb');
+  add_action('xprofile_updated_profile','sync_edit_data',10,1);
+  add_action('set_object_terms', 'sync_taxonomy_crm_user',10, 6);
+  //write to log
+    $current_date = date('Y-m-d H:i:s A');
+    // Prepare the log message
+    $blocked_status =wp_get_object_terms($user_id,"blocked_status")[0]->name;
+    $log_message = "inbound ,User ID: {$user_id}, 'request_body': ".json_encode($data). ", Time: {$current_date}\n";
+    // Write the log message to log.txt
+    file_put_contents(  plugin_dir_path(__FILE__).date('Y-m-d'), $log_message, FILE_APPEND);
+     $member_type_array = bp_get_object_terms( $user_id, bp_get_member_type_tax_name() );
+    $member_string ='';
+    if(!empty($member_type_array)){
+      foreach($member_type_array as $member_type){
+        $member_string =$member_type->name.' '.$member_string;
+      }
+    }
+  return rest_ensure_response( array(
+     'message' => 'user status updated successfully',   
+      array(
+        'display_name'=>get_userdata( $user_id )->display_name,
+        'user_id'=>$user_id,
+        'member_type'=>$member_string,
+        'verification_status'=>wp_get_object_terms($user_id,"profile_type")[0]->name,
+        'activity_status'=>wp_get_object_terms($user_id,"activity_status")[0]->name,
+        'blocked_status'=>wp_get_object_terms($user_id,"blocked_status")[0]->name,
+        'wordpress_role'=>$user_role,
+        'user_info'=>$user_meta_array
+      )
+     )
+);
+}
+
+function specific_bp_transform($inputString){
+  // Remove hyphens and capitalize first letter of each word
+  $formattedString = ucwords(str_replace('-', ' ', $inputString));
+  
+  return $formattedString;
+}
+

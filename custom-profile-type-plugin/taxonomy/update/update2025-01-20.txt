@@ -1,0 +1,6 @@
+01-20-2025 03:03 userID: 50185 sent to CRM successfully
+01-20-2025 03:03 CRM return status code201
+01-20-2025 09:00 userID: 50195 sent to CRM successfully
+01-20-2025 09:00 CRM return status code201
+01-20-2025 11:30 userID: 50199 sent to CRM successfully
+01-20-2025 11:30 CRM return status code201
