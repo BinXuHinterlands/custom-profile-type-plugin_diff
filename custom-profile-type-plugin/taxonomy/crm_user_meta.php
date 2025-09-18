@@ -41,7 +41,7 @@
   //update last name
   if($last_name){
     $current_last_name = get_user_meta($user_id, 'last_name', true);
-    if($last_name!=$current_lastt_name){
+    if($last_name!=$current_last_name){
         update_user_meta($user_id, 'last_name', $last_name);
     }
   }
