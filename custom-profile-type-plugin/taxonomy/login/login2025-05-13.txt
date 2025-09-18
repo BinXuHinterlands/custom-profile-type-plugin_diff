@@ -1,8 +1,0 @@
-05-13-2025 01:32 userID: 30 sent to CRM successfully
-05-13-2025 01:32 CRM return status code401
-05-13-2025 03:34 userID: 496 sent to CRM successfully
-05-13-2025 03:34 CRM return status code401
-05-13-2025 03:57 userID: 30 sent to CRM successfully
-05-13-2025 03:57 CRM return status code401
-05-13-2025 07:22 userID: 30 sent to CRM successfully
-05-13-2025 07:22 CRM return status code401

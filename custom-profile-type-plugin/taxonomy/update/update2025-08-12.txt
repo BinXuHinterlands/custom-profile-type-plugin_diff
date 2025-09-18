@@ -1,3 +1,0 @@
-08-12-2025 07:06 userID: 612 sent to CRM successfully
-08-12-2025 07:06 CRM return status code401 email not sent
-08-12-2025 07:06 CRM return status code401
